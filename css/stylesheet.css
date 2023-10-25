@@ -117,6 +117,15 @@ button[type="submit"]:hover {
   /* border-right: 1px solid #d9d9d9; */
 }
 
+.subHeaderP::before {
+  content: "";
+  border-left: 2px solid #d9d9d9;
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+  padding-left: 63px;
+}
+
 .subHeader p::after {
   content: "";
   background-image: url("../img/basil_arrow-right-outline.png");
