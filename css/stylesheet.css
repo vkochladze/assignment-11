@@ -183,8 +183,6 @@ button[type="submit"]:hover {
 
 .livingRoomUl li:first-child {
   color: #91b599;
-
-  /* paragraph3/p-bold */
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -197,20 +195,30 @@ button[type="submit"]:hover {
 .dropdown {
 }
 
-.line {
-  height: 10px;
-}
-
 .dropdown li {
   color: #c3b97f;
-
-  /* paragraph2/p-regular */
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px; /* 168.75% */
-  text-decoration: underline;
+  line-height: 16px; /* 168.75% */
+  /* text-decoration: underline; */
+}
+
+.dropdown li::after {
+  content: "";
+  background-image: url("../img/iconamoon_arrow-down-2.svg");
+  width: 16px;
+  height: 16px;
+  float: right;
+  background-repeat: no-repeat;
+}
+
+.dropdownLi::before {
+  content: "";
+  border-bottom: 1px solid#C3B97F;
+  display: inline-block;
+  width: 240px;
 }
 
 .midsection {
