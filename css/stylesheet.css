@@ -248,6 +248,7 @@ button[type="submit"]:hover {
 .rightsection {
   display: grid;
   gap: 20px;
+  padding-left: 20px;
 }
 
 .rightSectionImage {
