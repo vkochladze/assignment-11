@@ -36,12 +36,13 @@
   padding: 8px 20px 7px 20px;
   justify-content: center;
   align-items: flex-start;
-  gap: 100px;
+  gap: 50px;
   flex-shrink: 0;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 1.52px 3px 3px -0.8px rgba(0, 0, 0, 0.2) inset,
     0px -0.3px 1px 0px rgba(223, 217, 217, 0.4) inset;
+  align-items: center;
 }
 
 button[type="submit"] {
@@ -232,12 +233,32 @@ button[type="submit"]:hover {
   background: lightgray 50%;
 }
 
+/* subscetion 1 2 */
+.subSection2 {
+  max-width: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 75px 0 25px 25px;
+  background: #1c5550;
+}
+
+.subSection2 h2 {
+  color: #dfd9d9;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
 /* Section 2 */
 .section2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  padding-top: 100px;
+  padding-top: 10px;
   background: #1c5550;
   color: white;
   padding-inline: 20px;
@@ -275,4 +296,20 @@ button[type="submit"]:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 150% */
+}
+
+.s2AddToCartButton {
+  display: flex;
+  background: #c3b97f;
+  border: none;
+  height: 40px;
+  padding: 9px 8px 9px 10px;
+  justify-content: center;
+  align-items: center;
+  color: #dfd9d9;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
 }
